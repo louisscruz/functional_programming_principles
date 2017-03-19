@@ -1,0 +1,10 @@
+console
+submit louisstephancruz@me.com DAscDncrf1jHglLT
+submit louisstephancruz@me.com   def combine(trees: List[CodeTree]): List[CodeTree] = {
+    if(trees.length&lt;2) trees
+    else {
+      (makeCodeTree(trees.head,trees.tail.head)::trees.tail.tail).sortWith((a, b) =&gt; a.weight &lt; b.weight)
+      
+    }
+  
+submit louisstephancruz@me.com DAscDncrf1jHglLT
